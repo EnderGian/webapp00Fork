@@ -14,3 +14,8 @@ st.subheader("augh")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("FALA DERICK HAHAHAHAHAHAHAHAHAHA")
+
+video_file = open('https://youtu.be/3SCBYUE_X1U', 'rb')
+video_bytes = video_file.read()
+
+st.video(video_bytes)
